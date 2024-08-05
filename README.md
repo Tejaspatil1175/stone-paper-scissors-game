@@ -8,7 +8,7 @@ A simple and fun Stone Paper Scissors game implemented using HTML, CSS, and Java
 - **Multiplayer mode:** Play against a friend on the same device.
 - **User-friendly interface:** Easy to navigate and play.
 - **Mobile-friendly design:** Play on your phone or tablet.
-- **Offline functionality:** Play without an internet connection.
+.
 
 ## Installation
 
@@ -35,6 +35,4 @@ A simple and fun Stone Paper Scissors game implemented using HTML, CSS, and Java
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or new features.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

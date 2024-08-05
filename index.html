@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors Game</title>
+    <link rel="stylesheet" href="SPS.css">
+</head>
+<body>
+    <header>
+        Stone Paper Scissors Game
+    </header>
+
+    <div class="container">
+        <h1>Stone Paper Scissors Game</h1>
+
+        <div class="button-container">
+            <button onclick="playGame('stone')">Stone</button>
+            <button onclick="playGame('paper')">Paper</button>
+            <button onclick="playGame('scissors')">Scissors</button>
+        </div>
+
+        <table>
+            <tr>
+                <th>User Score</th>
+                <th>Computer Score</th>
+                <th>Tie Count</th>
+                <th>Turns Played</th>
+            </tr>
+            <tr>
+                <td id="userScore">0</td>
+                <td id="computerScore">0</td>
+                <td id="tieCount">0</td>
+                <td id="turnCount">0</td>
+            </tr>
+        </table>
+
+        <button class="restart-button" onclick="restartGame()">Restart Game</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Stone Paper Scissors Game. All rights reserved.</p>
+    </footer>
+
+    <script src="SPS.js"></script>
+</body>
+</html>
